@@ -20,6 +20,22 @@
 		</plugins>
 	</build>
 
+	<repositories>
+
+		<!-- MAVEN REPOSITORY -->
+		<repository>
+			<id>mvn-repository</id>
+			<url>http://mvnrepository.com/</url>
+		</repository>
+
+		<!-- MAVEN SEARCH REPOSITORY -->
+		<repository>
+			<id>mavensearch</id>
+			<url>http://www.mvnsearch.org/maven2</url>
+		</repository>
+
+	</repositories>
+	
 	<dependencies>
 		<!-- JSF -->
 		<dependency>
@@ -42,6 +58,28 @@
 			<artifactId>hibernate-jpa-2.0-api</artifactId>
 			<version>1.0.1.Final</version>
 		</dependency>
+	
+			<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-jdbc -->
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jdbc</artifactId>
+			<version>9.0.0.M20</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>1.7.25</version>
+		</dependency>
+		
+		<!-- COMMONS LANG3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.1</version>
+		</dependency>
+		
 	</dependencies>
 	
 	<properties>
