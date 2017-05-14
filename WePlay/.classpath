@@ -23,6 +23,7 @@
 	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>

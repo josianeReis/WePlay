@@ -1,1 +1,9 @@
 /target/
+<<<<<<< HEAD
+=======
+.classpath
+
+.properties
+
+.MF
+>>>>>>> frontEndDev
