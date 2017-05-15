@@ -1,46 +1,124 @@
-.navbar-topMenu{
-	background-color: #86bfe8 !important;
-	border-color: transparent !important;	
-	margin-bottom: 0px !important;	
+.container-body {
+	background-color: #E8E8E8;
+}
+
+.navbar-topMenu {
+	background-color: #2E2E2E !important;
+	border-color: transparent !important;
+	margin-bottom: 0px !important;
 	height: 60px;
 }
 
-.navbar-right{
+.navbar-right {
 	margin-right: 35px !important;
 }
 
-.navbar-header{
+.navbar-header {
 	margin-left: 35px !important;
-	background-image: url("../resources/img/navbar-icon.png");	
+	background-image: url("../resources/img/navbar-icon.png");
 }
 
-.container-fluid{
-	padding-top: 15px;
+.container-infoPage {
+	background-color: transparent;
+	margin: 15px 15px 15px 15px;
+	padding: 10px;
 }
 
-/*#about-us{
-	width: 1270px;
-}*/
-.container-topPage{
-	background-color:transparent;
-	
-}
-.container-logo-full{
+.container-logo-full {
 	padding: 20px;
-	height:100px;
-
+	height: 100px;
 }
 
-#logo-full{
+#logo-full {
 	width: 250px;
 	margin-left: 55px;
 }
 
-.text-middle{
-	float:left;
+.text-middle {
+	float: left;
 }
 
-.container-middle{
-	float:right;
+.container-middle {
+	float: right;
 }
 
+.login-signup-list {
+	list-style: none;
+}
+
+ul.login-signup-list {
+	padding: 10px;
+}
+
+.form-table {
+	background: #fafafa;
+	border: 2px solid #e0e0e0;
+}
+
+.input-block {
+	border-width: 0px;
+}
+
+tr {
+	border-width: 2px;
+}
+
+#bodyT {
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.modal-dialog {
+	width: 470px !Important;
+	margin: 30px auto;
+}
+
+.form-control {
+	height: 44px !Important;
+	border-radius: 0px !important;
+}
+
+#register-form {
+	width: 100%;
+	margin-bottom: 25px !important;
+}
+
+.modal-body {
+	padding-left: 45px !important;
+	padding-right: 45px !important;
+}
+
+.btn-blue {
+	background: #1caff6;
+	border-color: #1caff6;
+}
+
+.btn {
+	border-radius: 50px !important;
+}
+
+#register-button {
+	margin-bottom: 10px !important;
+}
+
+#signup-social-net {
+	margin-left: 2px !important;
+}
+
+.modal-header {
+	padding: 40px 160px 0 40px;
+	min-height: 110px;
+	width: 100%;
+	display: table;
+}
+
+.modal-footer {
+	background-color: #e5e5e5;
+	color: #999;
+	text-align: center;
+	padding: 30px 0;
+	-webkit-border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+}
