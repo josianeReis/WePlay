@@ -12,12 +12,10 @@
 	<link
 		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		rel="stylesheet" />
-
-
 </h:head>
 
 <h:body>
-
+<<<<<<< HEAD
 	<nav class="navbar-topMenu navbar navbar-default">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -35,24 +33,76 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
+=======
+	<!-- containers da pag -->
+	<div class="container-body container-fluid">
+
+		<!-- Menu superior -->
+		<nav class="navbar navbar-default navbar-fixed-top navbar-topMenu">
+			<div class="container container-header" id="top-mennu">
+>>>>>>> frontEndDev
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Quem Somos</a></li>
 					<li><a href="#">Funcionalidades</a></li>
 					<li><a href="#">Blog</a></li>
-					<li><a href="#">Login</a></li>
-					<li><a href="#">Cadastro</a></li>
+					<li><a data-target="#login-modal" data-toggle="modal" href="#">Login</a></li>
+					<li><a data-target="#signup-modal" data-toggle="modal"
+						href="#">Cadastro</a></li>
 				</ul>
 			</div>
-			<!-- /.navbar-collapse -->
+		</nav>
+
+
+
+		<!-- Modal login-->
+		<div class="modal" id="login-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">X</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<p>MOdal de Login da página</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- /.container-fluid -->
-	</nav>
+
+		<!-- Modal cadastro-->
+		<div class="modal" id="signup-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">X</button>
+						<h4 class="modal-title">Cadastro</h4>
+					</div>
+					<div class="modal-body">
+						<form id="register-form" accept-charset="UTF-8">
+							<input id="name" class="form-control" type="text" placeholder="Nome" name="name" /> 
+							<input id="email" class="form-control" type="text" placeholder="E-mail" name="email" />
+							<input id="password" class="form-control" type="password" placeholder="Senha" name="password" />							
+						</form>
+						<form id="buttons-register-form">
+							<h:commandButton id="register-button" class="btn btn-blue  btn-lg btn-block" value="Criar conta" />
+							<h:commandButton id="signup-social-net" class="btn btn-fbblue-dark signup-facebook" value="Inscreva-se com Facebook" /><span class="icon icon-fb-small"></span>
+							<h:commandButton id="signup-social-net" class="btn btn-googlered-new signup-google" value="Inscreva-se com Google" /><span class="icon icon-google-small"></span>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-	<div class="container-body container-fluid">
-		<div class="container-topPage container-fluid">
+		<div class="container-infoPage container-fluid">
 			<div class="container show-grid" id="about-us">
-
 				<div class="row">
 					<div class="container-logoFull col-md-5">
 						<div class="logo-full">
@@ -104,7 +154,7 @@
 
 
 
-		<div class="container-topPage container-fluid">
+		<div class="container-infoPage container-fluid">
 			<div class="container show-grid" id="about-us">
 
 				<div class="row">
@@ -138,7 +188,7 @@
 
 
 
-		<div class="container-topPage container-fluid">
+		<div class="container-infoPage container-fluid">
 			<div class="container show-grid" id="about-us">
 
 				<div class="row">
@@ -170,7 +220,7 @@
 			</div>
 		</div>
 
-		<div class="container-topPage container-fluid">
+		<div class="container-infoPage container-fluid">
 			<div class="container show-grid" id="about-us">
 
 				<div class="row">
