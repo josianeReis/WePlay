@@ -4,8 +4,12 @@ package br.com.weplay.util;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
+import br.com.weplay.dao.UserDao;
+
 public class ManagerFactory {
 
+	private static UserDao	userDaoInstance;
+	
 	private ManagerFactory() {
 
 	}
@@ -18,10 +22,22 @@ public class ManagerFactory {
 
 		if (entityManagerFactoryInstance == null) {
 			entityManagerFactoryInstance = Persistence
-			          .createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
+			.createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
 		}
 
 		return entityManagerFactoryInstance;
 	}
+	
+	/*************************************************************************************
+	 * User
+	 *************************************************************************************/
 
+	public static UserDao  userInstance() {
+
+		if (userDaoInstance == null) {
+			userDaoInstance = new UserDao();
+		}
+
+		return userDaoInstance;
+	}
 }
