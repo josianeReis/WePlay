@@ -2,10 +2,6 @@
 	background-color: #3c3d41;
 	padding: 35px 35px;
 	color: rgba(255, 255, 255, 1.00);
-	margin-bottom: 20px;
-	border-bottom-right-radius: 6px;
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 6px;
 }
 
 .footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social,
@@ -85,10 +81,15 @@
 
 .footer-bs .footer-social li {
 	padding: 5px 4px;
+	float: left;
 }
 
 .footer-bs .footer-social a {
 	color: rgba(255, 255, 255, 1.00);
+}
+.footer-bs .footer-social a img{
+	color: rgba(255, 255, 255, 1.00);
+	width:35px;
 }
 
 .footer-bs .footer-social a:hover {

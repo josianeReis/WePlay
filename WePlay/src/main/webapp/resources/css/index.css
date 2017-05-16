@@ -1,5 +1,6 @@
 .container-body {
 	background-color: #E8E8E8;
+	margin-top: 58px;
 }
 
 .navbar-topMenu {
@@ -7,6 +8,26 @@
 	border-color: transparent !important;
 	margin-bottom: 0px !important;
 	height: 60px;
+}
+
+.nav li {
+	transition: 0.2s;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.nav li:hover {
+	background-color: #E8E8E8;
+	color: #EEA200;
+}
+
+.container-fluid nav-middle {
+	padding: 0px;
+}
+
+ #navMiddle {
+	margin-right: -25px;
+	margin-left: -25px;
 }
 
 .navbar-right {
