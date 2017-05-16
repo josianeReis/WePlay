@@ -124,3 +124,15 @@ li#logos {
     padding: 5px;
     margin: 5px;
 }
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #eeeeec!important;
+    background-color: #356FA5 !important;
+    boder: 1px;
+}
+
+.CustImg{
+	width: 200px;
+	background: #CBCBCB;
+}
+
