@@ -1,0 +1,29 @@
+.right-menu{
+	float:right !important;
+}
+
+.nav-perfil{
+	padding-left:50px !important;
+	padding-right:50px !important;
+}
+
+.dropdown img{
+	width:30px;	
+}
+
+#bs-example-navbar-collapse-1{
+	width:1014px;
+	margin-left: 90px;	
+}
+
+.left-menu{
+	list-style:none;
+	text-decoration:none;
+}
+.navbar navbar-default nav-perfil li{
+	background-color: red;
+}
+
+.activit-menu{
+	float:left;
+}
