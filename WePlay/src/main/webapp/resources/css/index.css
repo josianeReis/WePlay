@@ -146,9 +146,12 @@ tr {
 }
 
 li img{
-	height: 60px;
-    width: 60px;
-    margin: 0px 25px 0px 25px;
+    width: 60px;   
     filter: blur(0.79px);
 }
+
+img#music{
+	margin: 0px 25px 0px 25px;
+}
+ 
 

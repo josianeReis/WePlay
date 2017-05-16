@@ -1,29 +1,126 @@
-.right-menu{
-	float:right !important;
+body{
+	background-color: #E8E8E8 !important;
+	
+}
+.right-menu {
+	float: right !important;
 }
 
-.nav-perfil{
-	padding-left:50px !important;
-	padding-right:50px !important;
+.nav-perfil {
+	padding-left: 50px !important;
+	padding-right: 50px !important;
 }
 
-.dropdown img{
-	width:30px;	
+.dropdown img {
+	width: 30px;
 }
 
-#bs-example-navbar-collapse-1{
-	width:1014px;
-	margin-left: 90px;	
+#bs-example-navbar-collapse-1 {
+	width: 1014px;
+	margin-left: 90px;
 }
 
-.left-menu{
-	list-style:none;
-	text-decoration:none;
+.left-menu {
+	list-style: none;
+	text-decoration: none;
 }
-.navbar navbar-default nav-perfil li{
+
+.navbar navbar-default nav-perfil li {
 	background-color: red;
 }
 
-.activit-menu{
-	float:left;
+.activit-menu {
+	float: left;
+}
+
+div#lateral-grid {
+	width: 400px;
+	float: right;
+}
+
+.panel.panel-default.container-activits.col-md-8 {
+	width: 700px;
+}
+
+h2 {
+	color: #3c3c3c;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 26px;
+	margin: 0 0 25px;
+}
+
+.talk-tutor {
+	background-color: red;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: middle;
+	width: 215px;
+}
+div#talk-tutor {
+    border-radius: 90px;
+}
+
+.container.tutor-presents {
+	width: 340px;
+	margin-bottom: 20px;
+}
+
+img#performence-img {
+	width: 330px;
+}
+
+.container.performance-presents {
+	width: 340px;
+	margin-bottom: 15px;
+}
+
+.img-performance {
+	width: 340px;
+}
+
+.panel-body.text {
+	padding: 25px;
+}
+
+span.activitN1.img-activit {
+	background-color:red;
+	height: 80px;
+	width: 80px;
+	border-radius: 98px;
+	display: inline-block;
+	height: 70px;
+	margin: 0 0 13px;
+	width: 70px;
+}
+
+.activits-line{
+	
+	margin-bottom: 40px;
+	text-align:center;
+}
+
+.container.activits-line {
+    width: 100%;
+}
+
+.img-responsive{
+	display: -webkit-inline-box !important;
+	/*max-width: 60% !important;*/
+}
+
+.container-folowUs{
+	background-color: transparent !important;
+}
+
+img#logos {
+    width: 30px;
+}
+ul.follow-social-net{
+	list-style: none;
+}
+li#logos {
+    float: left;
+    padding: 5px;
+    margin: 5px;
 }
